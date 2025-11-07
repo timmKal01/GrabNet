@@ -60,5 +60,5 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 =======
 # GrabNet
-Welcome to GrabNet store.
+Welcome to GrabNet Postcards.
 >>>>>>> fbc83a5e1802016fdc915ff28ca7d318baf2ddfc
