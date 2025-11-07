@@ -1,54 +1,25 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
+    <head class="text-center px-8 py-12 w-x1">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>GrabNest</title>
+        <title>Generate Your Postcard</title>
+
+        @vite('resources/css/app.css')
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
-        <!-- Styles -->
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color: #f8fafc;
-                color: #636b6f;
-            }
-            .container {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-            }
-            .content {
-                text-align: center;
-            }
-            .title {
-                font-size: 84px;
-            }
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-        </style>
-    </head>
-    <body>
+</head>
+    <body class="text-center px-2 py-4 w-3" >
         <div class="container">
             <div class="content">
                 <div class="title">
-                    Welcome to Our Application
+                    Welcome to My Postcard Generator!
                 </div>
                 <div class="links">
-                    <a href="{{ url('/login') }}">Login</a>
-                    <a href="{{ url('/register') }}">Register</a>
+                    <a href="/postcard" class="btn mt-4 inline-block">Reviews</a>
+                    
                 </div>
             </div>
         </div>
